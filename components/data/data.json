@@ -1,0 +1,1676 @@
+{
+  "common": {
+    "Topbar": {
+      "tagline": "High-Speed Internet for a Brighter Tomorrow",
+      "contact_info": [
+        {
+          "icon": "Phone",
+          "label": "Phone",
+          "value": "+100000000000",
+          "href": "tel:+100000000000"
+        },
+        {
+          "icon": "Mail",
+          "label": "Email",
+          "value": "info@xyz.com",
+          "href": "mailto:info@xyz.com"
+        },
+        {
+          "icon": "Headset",
+          "label": "Support",
+          "value": "Customer Support",
+          "href": "/contact"
+        }
+      ]
+    },
+    "Header": {
+      "logo_image": "/logo/logo.webp",
+      "logo_text": "joyvia",
+      "phone": "+100000000000",
+      "phone_href": "tel:+100000000000",
+      "links": [
+        {
+          "name": "Home",
+          "href": "/",
+          "active": true
+        },
+        {
+          "name": "About Us",
+          "href": "/about"
+        },
+        {
+          "name": "Broadband Plans",
+          "href": "/broadband-plans"
+        },
+        {
+          "name": "Our Services",
+          "href": "/services"
+        },
+        {
+          "name": "Blogs",
+          "href": "/blogs"
+        },
+        {
+          "name": "Testimonials",
+          "href": "/testimonials"
+        },
+        {
+          "name": "Contact Us",
+          "href": "/contact"
+        }
+      ],
+      "button_text": "Enquire Now",
+      "button_link": "/enquire-now"
+    },
+    "Footer": {
+      "logo_image": "/logo/logo-w.webp",
+      "logo_text": "joyvia",
+      "description": "Joyvia delivers high-speed, reliable and secure internet services for homes and businesses. Connecting people to a brighter tomorrow.",
+      "socials": [
+        {
+          "icon": "Facebook",
+          "href": "https://www.facebook.com/"
+        },
+        {
+          "icon": "Instagram",
+          "href": "https://www.instagram.com/"
+        },
+        {
+          "icon": "Linkedin",
+          "href": "https://www.linkedin.com/"
+        },
+        {
+          "icon": "Youtube",
+          "href": "https://www.youtube.com/"
+        }
+      ],
+      "quick_links": [
+        {
+          "name": "Home",
+          "href": "/"
+        },
+        {
+          "name": "About Us",
+          "href": "/about"
+        },
+        {
+          "name": "Broadband Plans",
+          "href": "/broadband-plans"
+        },
+        {
+          "name": "Blogs",
+          "href": "/blogs"
+        },
+        {
+          "name": "Contact Us",
+          "href": "/contact"
+        }
+      ],
+      "our_services": [
+        {
+          "name": "Home Broadband",
+          "href": "/services/home-broadband"
+        },
+        {
+          "name": "Business Internet",
+          "href": "/services/business-internet"
+        },
+        {
+          "name": "Wi-Fi Solutions",
+          "href": "/services/wi-fi-solutions"
+        },
+        {
+          "name": "Dedicated Internet",
+          "href": "/services/dedicated-internet"
+        },
+        {
+          "name": "Installation & Setup",
+          "href": "/services/installation-setup"
+        }
+      ],
+      "contact": {
+        "address": "123 Education Lane,\nNew York, NY 10001",
+        "phone": "+100000000000",
+        "email": "info@xyz.com"
+      },
+      "copyright": "Copyright © 2026. All rights reserved. Powered by Lestow"
+    }
+  },
+  "categories": {
+    "Broadband": {
+      "templateComponents": {
+        "template-1": {
+          "pages": {
+            "home": {
+              "title": "Home",
+              "pageName": "Home",
+              "metadata": {
+                "title": "Joyvia - High-Speed Internet for Home & Business"
+              },
+              "components": [
+                {
+                  "key": "HeroSection",
+                  "component": "Hero"
+                },
+                {
+                  "key": "AboutSection",
+                  "component": "About"
+                },
+                {
+                  "key": "HighlightsSection",
+                  "component": "Highlights"
+                },
+                {
+                  "key": "ServicesSection",
+                  "component": "Services"
+                },
+                {
+                  "key": "PricingSection",
+                  "component": "Pricing"
+                },
+                {
+                  "key": "WhyChooseSection",
+                  "component": "WhyChoose"
+                },
+                {
+                  "key": "CtaBannerSection",
+                  "component": "CtaBanner"
+                },
+                {
+                  "key": "TestimonialsSection",
+                  "component": "Testimonials"
+                }
+              ]
+            },
+            "about": {
+              "title": "About Us",
+              "pageName": "About Us",
+              "metadata": {
+                "title": "Joyvia - About Us"
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "AboutSection",
+                  "component": "About"
+                },
+                {
+                  "key": "HighlightsSection",
+                  "component": "Highlights"
+                },
+                {
+                  "key": "WhyChooseSection",
+                  "component": "WhyChoose"
+                },
+                {
+                  "key": "CtaBannerSection",
+                  "component": "CtaBanner"
+                }
+              ]
+            },
+            "services": {
+              "title": "Our Services",
+              "pageName": "Our Services",
+              "metadata": {
+                "title": "Joyvia - Our Services"
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "ServicesSection",
+                  "component": "Services"
+                }
+              ]
+            },
+            "service_details": {
+              "title": "Service Details",
+              "pageName": "Service Details",
+              "metadata": {
+                "title": "Joyvia - Service Details"
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "ServiceDetailsSection",
+                  "component": "ServiceDetails"
+                }
+              ]
+            },
+            "broadband_plans": {
+              "title": "Broadband Plans",
+              "pageName": "Broadband Plans",
+              "metadata": {
+                "title": "Joyvia - High Speed Broadband Plans"
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "PricingSection",
+                  "component": "Pricing"
+                },
+                {
+                  "key": "CtaBannerSection",
+                  "component": "CtaBanner"
+                }
+              ]
+            },
+            "contact": {
+              "title": "Contact Us",
+              "pageName": "Contact Us",
+              "metadata": {
+                "title": "Joyvia - Contact Us"
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "ContactSection",
+                  "component": "Contact"
+                }
+              ]
+            },
+            "gallery": {
+              "title": "Our Gallery",
+              "pageName": "Our Gallery",
+              "metadata": {
+                "title": "Joyvia - Image Gallery"
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "GallerySection",
+                  "component": "Gallery"
+                }
+              ]
+            },
+            "book_a_plan": {
+              "title": "Enquire Now",
+              "pageName": "Enquire Now",
+              "metadata": {
+                "title": "Joyvia - Enquire Now"
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "BookAPlanSection",
+                  "component": "BookAPlan"
+                }
+              ]
+            },
+            "enquire_now": {
+              "title": "Enquire Now",
+              "pageName": "Enquire Now",
+              "metadata": {
+                "title": "Joyvia - Enquire Now"
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "EnquireNowSection",
+                  "component": "EnquireNow"
+                }
+              ]
+            },
+            "thank_you": {
+              "title": "Thank You",
+              "pageName": "Thank You",
+              "metadata": {
+                "title": "Joyvia - Thank You"
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "ThankYouSection",
+                  "component": "ThankYou"
+                }
+              ]
+            },
+            "testimonials": {
+              "title": "Testimonials",
+              "pageName": "Testimonials",
+              "metadata": {
+                "title": "Joyvia - Customer Testimonials"
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "TestimonialsSection",
+                  "component": "Testimonials"
+                },
+                {
+                  "key": "CtaBannerSection",
+                  "component": "CtaBanner"
+                }
+              ]
+            },
+            "blogs": {
+              "title": "Blogs",
+              "pageName": "Blogs",
+              "metadata": {
+                "title": "Joyvia - Latest News & Blogs"
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "BlogsSection",
+                  "component": "Blogs"
+                }
+              ]
+            },
+            "blog_details": {
+              "title": "Blogs Detail",
+              "pageName": "Blogs Detail",
+              "metadata": {
+                "title": "Joyvia - Blogs Detail"
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "BlogDetailsSection",
+                  "component": "BlogDetails"
+                }
+              ]
+            },
+            "not_found": {
+              "title": "404 Error",
+              "pageName": "404 Error",
+              "heading": "Oops! Page Not Found",
+              "description": "The page you're looking for doesn't exist or may have been moved. Let's get you back on track.",
+              "button_text": "Go to Home",
+              "button_href": "/",
+              "metadata": {
+                "title": "Joyvia - 404 Page Not Found"
+              },
+              "components": [
+                {
+                  "key": "NotFoundSection",
+                  "component": "NotFound"
+                }
+              ]
+            }
+          },
+          "sections": {
+            "hero": {
+              "badge_text": "FAST. RELIABLE. ALWAYS ON.",
+              "title_line1": "High-Speed Internet",
+              "title_line2": "for a Brighter",
+              "title_highlight": "Everyday",
+              "description": "Stay connected with Joyvia’s ultra-fast and reliable broadband services, designed for your home and business.",
+              "primary_button": {
+                "text": "Get Connected",
+                "href": "/book-a-plan"
+              },
+              "secondary_button": {
+                "text": "View Plans",
+                "href": "/broadband-plans"
+              },
+              "image": "/images/hero.webp",
+              "floating_badge_top": {
+                "text": "Streaming",
+                "subtext": "Lag-Free",
+                "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+              },
+              "floating_badge_bottom": {
+                "label": "Ultra-Fast Speed",
+                "speed": "1 Gbps"
+              }
+            },
+            "about": {
+              "subtitle": "ABOUT US",
+              "title_line1": "Connecting",
+              "title_highlight": "More Lives",
+              "title_line2": "Every Day",
+              "description": "At Joyvia, we are committed to delivering high-speed, reliable and uninterrupted broadband services for homes and businesses. Our mission is to keep you connected to what matters most — work, entertainment, learning and everything in between.",
+              "image": "/images/about-family.webp",
+              "image_secondary": "/images/about-router.webp",
+              "features": [
+                {
+                  "title": "Ultra-Fast Speeds",
+                  "description": "Seamless streaming, work and gaming.",
+                  "icon": "Zap"
+                },
+                {
+                  "title": "Wide Coverage",
+                  "description": "Connecting more homes and businesses.",
+                  "icon": "Wifi"
+                },
+                {
+                  "title": "Reliable Network",
+                  "description": "Consistent and secure connectivity.",
+                  "icon": "Settings"
+                },
+                {
+                  "title": "24/7 Support",
+                  "description": "We're always here to help.",
+                  "icon": "Headset"
+                }
+              ],
+              "button": {
+                "text": "Read More",
+                "href": "/about"
+              }
+            },
+            "highlights": {
+              "items": [
+                {
+                  "title": "Home Broadband",
+                  "description": "Enjoy seamless internet for your entire family.",
+                  "icon": "Home",
+                  "link": "/services/home-broadband"
+                },
+                {
+                  "title": "Business Internet",
+                  "description": "High-speed connectivity for growing businesses.",
+                  "icon": "Briefcase",
+                  "link": "/services/business-internet"
+                },
+                {
+                  "title": "Wi-Fi Solutions",
+                  "description": "Strong and reliable coverage everywhere.",
+                  "icon": "Wifi",
+                  "link": "/services/wi-fi-solutions"
+                },
+                {
+                  "title": "Dedicated Internet",
+                  "description": "Uninterrupted internet for critical operations.",
+                  "icon": "Server",
+                  "link": "/services/dedicated-internet"
+                }
+              ]
+            },
+            "services": {
+              "subtitle": "OUR SERVICES",
+              "title_line1": "Our",
+              "title_highlight": "Internet Services",
+              "description": "From high-speed home internet to dedicated business solutions, Joyvia provides perfect connectivity for all your needs.",
+              "button": {
+                "text": "View All Services",
+                "href": "/services"
+              },
+              "items": [
+                {
+                  "title": "Home Broadband",
+                  "description": "Enjoy high-speed, stable and secure internet for seamless streaming, browsing and gaming at home.",
+                  "image": "/images/service-home-broadband.webp",
+                  "icon": "Wifi",
+                  "link": "/services/home-broadband"
+                },
+                {
+                  "title": "Business Internet",
+                  "description": "Dedicated internet network with higher speed and reliability to keep your business and operations productive.",
+                  "image": "/images/service-business-internet.webp",
+                  "icon": "Briefcase",
+                  "link": "/services/business-internet"
+                },
+                {
+                  "title": "Wi-Fi Solutions",
+                  "description": "Advanced mesh setup and connection to deliver uninterrupted signal throughout home or office.",
+                  "image": "/images/service-wifi-mesh.webp",
+                  "icon": "Router",
+                  "link": "/services/wi-fi-solutions"
+                },
+                {
+                  "title": "Dedicated Internet",
+                  "description": "High-capacity, high-performance leased internet line designed for complex enterprise workloads.",
+                  "image": "/images/service-dedicated-fiber.webp",
+                  "icon": "Cpu",
+                  "link": "/services/dedicated-internet"
+                },
+                {
+                  "title": "Installation & Setup",
+                  "description": "Prompt setup and hassle-free installation by our certified technicians with minimal downtime.",
+                  "image": "/images/service-installation-setup.webp",
+                  "icon": "Wrench",
+                  "link": "/services/installation-setup"
+                },
+                {
+                  "title": "Customer Support",
+                  "description": "Our dedicated support team is available 24/7 to assist you with any network questions or technical issues.",
+                  "image": "/images/service-customer-support.webp",
+                  "icon": "Headset",
+                  "link": "/services/customer-support"
+                }
+              ]
+            },
+            "pricing": {
+              "subtitle": "OUR BROADBAND PLANS",
+              "title_line1": "Choose the Plan That",
+              "title_highlight": "Fits Your Needs",
+              "description": "High-speed, reliable and affordable internet plans for every home and business.\nStay connected, work, stream and do more with Joyvia.",
+              "plans": [
+                {
+                  "name": "BASIC PLAN",
+                  "category": "Best for Everyday Use",
+                  "speed": "30",
+                  "speed_unit": "Mbps",
+                  "price": "₹499",
+                  "billing_period": "per month",
+                  "icon": "Home",
+                  "is_popular": false,
+                  "button_text": "Enquire Now",
+                  "button_link": "/book-a-plan?plan=basic",
+                  "button_variant": "solid",
+                  "features": [
+                    "Ideal for browsing & social media",
+                    "Stable & reliable connection",
+                    "Connect multiple devices"
+                  ]
+                },
+                {
+                  "name": "STANDARD PLAN",
+                  "category": "Best for Streaming",
+                  "speed": "100",
+                  "speed_unit": "Mbps",
+                  "price": "₹799",
+                  "billing_period": "per month",
+                  "icon": "Film",
+                  "is_popular": false,
+                  "button_text": "Enquire Now",
+                  "button_link": "/book-a-plan?plan=standard",
+                  "button_variant": "outline",
+                  "features": [
+                    "Smooth HD & 4K streaming",
+                    "Great for work from home",
+                    "Multiple device support"
+                  ]
+                },
+                {
+                  "name": "PREMIUM PLAN",
+                  "category": "Best for Families",
+                  "speed": "200",
+                  "speed_unit": "Mbps",
+                  "price": "₹999",
+                  "billing_period": "per month",
+                  "icon": "Users",
+                  "is_popular": true,
+                  "popular_badge": "MOST POPULAR",
+                  "button_text": "Enquire Now",
+                  "button_link": "/book-a-plan?plan=premium",
+                  "button_variant": "solid",
+                  "features": [
+                    "Lag-free 4K streaming",
+                    "Ideal for multiple users",
+                    "Gaming & video conferencing"
+                  ]
+                },
+                {
+                  "name": "BUSINESS PLAN",
+                  "category": "Built for Growing Businesses",
+                  "speed": "300",
+                  "speed_unit": "Mbps",
+                  "price": "₹1,499",
+                  "billing_period": "per month",
+                  "icon": "Briefcase",
+                  "is_popular": false,
+                  "button_text": "Enquire Now",
+                  "button_link": "/book-a-plan?plan=business",
+                  "button_variant": "outline",
+                  "features": [
+                    "High-speed dedicated bandwidth",
+                    "Uptime & reliable connectivity",
+                    "For offices, startups & enterprises"
+                  ]
+                }
+              ]
+            },
+            "why_choose": {
+              "subtitle": "OUR FACILITY",
+              "title_line1": "More Than Internet,",
+              "title_highlight": "A Better Experience",
+              "description": "We provide advanced facilities to make your internet experience faster, smoother and worry-free.",
+              "image": "/images/girl.webp",
+              "items": [
+                {
+                  "title": "Free Installation",
+                  "description": "Lorem ipsum dolor sit amet them consec tetur elit sed do eiumod. Donec quam felis ies nec.",
+                  "icon": "Router",
+                  "icon_image": "/images/why-choose-icon-1.webp"
+                },
+                {
+                  "title": "Ultrafast Connect",
+                  "description": "Lorem ipsum dolor sit amet them consec tetur elit sed do eiumod. Donec quam felis ies nec.",
+                  "icon": "Laptop5G",
+                  "icon_image": "/images/why-choose-icon-2.webp"
+                },
+                {
+                  "title": "4K and 8K Quality",
+                  "description": "Lorem ipsum dolor sit amet them consec tetur elit sed do eiumod. Donec quam felis ies nec.",
+                  "icon": "Screen4K",
+                  "icon_image": "/images/why-choose-icon-3.webp"
+                },
+                {
+                  "title": "Fast Support 24/7",
+                  "description": "Lorem ipsum dolor sit amet them consec tetur elit sed do eiumod. Donec quam felis ies nec.",
+                  "icon": "Support24",
+                  "icon_image": "/images/why-choose-icon-4.webp"
+                }
+              ]
+            },
+            "cta_banner": {
+              "title_line1": "Ready for a Faster,",
+              "title_line2": "Smarter",
+              "title_highlight": "Internet Experience?",
+              "description": "Join thousands of happy users and get connected today with high-speed, reliable and secure internet services.",
+              "button": {
+                "text": "Enquire Now",
+                "href": "/broadband-plans"
+              },
+              "image": "/images/cta.webp"
+            },
+            "testimonials": {
+              "subtitle": "CUSTOMER REVIEWS",
+              "title_line1": "What Our",
+              "title_highlight": "Customers Say",
+              "description": "Trusted by thousands of happy customers for fast, reliable and uninterrupted internet services.",
+              "rating_summary": {
+                "score": "4.8/5",
+                "label": "from 2,500+ reviews",
+                "avatars": [
+                  "/images/avatar-rahul.webp",
+                  "/images/avatar-priya.webp",
+                  "/images/avatar-amit.webp",
+                  "/images/avatar-priya.webp"
+                ]
+              },
+              "reviews": [
+                {
+                  "text": "Joyvia has been amazing! Super fast internet, stable connection and hassle-free installation. Highly recommend for home use.",
+                  "author": "Rahul Mehta",
+                  "role": "Home User, Delhi",
+                  "location": "New Delhi",
+                  "avatar": "/images/avatar-rahul.webp",
+                  "rating": 5
+                },
+                {
+                  "text": "Excellent service and great speed. I work from home and Joyvia keeps me connected without any interruptions.",
+                  "author": "Priya Sharma",
+                  "role": "Working Professional, Noida",
+                  "location": "Gurgaon",
+                  "avatar": "/images/avatar-priya.webp",
+                  "rating": 5
+                },
+                {
+                  "text": "Installation was quick and the team was very professional. The speed is exactly as promised. Really happy with Joyvia!",
+                  "author": "Amit Verma",
+                  "role": "Business Owner, Gurugram",
+                  "location": "Noida",
+                  "avatar": "/images/avatar-amit.webp",
+                  "rating": 5
+                },
+                {
+                  "text": "Great connectivity and value for money. We use it for streaming, work and gaming – everything runs smoothly.",
+                  "author": "Neha Kapoor",
+                  "role": "Content Creator, Bengaluru",
+                  "location": "Faridabad",
+                  "avatar": "/images/avatar-priya.webp",
+                  "rating": 5
+                },
+                {
+                  "text": "Customer support is outstanding. They resolved my issue within minutes. Truly reliable internet service.",
+                  "author": "Vikas Singh",
+                  "role": "IT Consultant, Pune",
+                  "location": "Ghaziabad",
+                  "avatar": "/images/avatar-rahul.webp",
+                  "rating": 5
+                },
+                {
+                  "text": "Joyvia's internet is super fast and consistent. No more buffering during online classes. Highly recommended!",
+                  "author": "Sneha Reddy",
+                  "role": "Student, Bangalore",
+                  "location": "Bangalore",
+                  "avatar": "/images/avatar-priya.webp",
+                  "rating": 5
+                },
+                {
+                  "text": "Very professional team and smooth installation. The connection is stable even during peak hours. Great experience so far!",
+                  "author": "Karan Malhotra",
+                  "role": "Freelance Architect, Mumbai",
+                  "location": "Jaipur",
+                  "avatar": "/images/avatar-amit.webp",
+                  "rating": 5
+                },
+                {
+                  "text": "I'm really impressed with the speed and reliability. Perfect for work from home and streaming. Thank you Joyvia!",
+                  "author": "Anjali Verma",
+                  "role": "Graphic Designer, Pune",
+                  "location": "Pune",
+                  "avatar": "/images/avatar-priya.webp",
+                  "rating": 5
+                },
+                {
+                  "text": "Affordable plans, excellent speed and helpful support team. Joyvia is the best internet service in our area!",
+                  "author": "Rohit Agarwal",
+                  "role": "Small Business Owner, Lucknow",
+                  "location": "Lucknow",
+                  "avatar": "/images/avatar-rahul.webp",
+                  "rating": 5
+                },
+                {
+                  "text": "Blazing fast speeds with zero packet loss for competitive gaming. Ping stays locked at 4ms!",
+                  "author": "Aakash Gupta",
+                  "role": "Gamer, Chandigarh",
+                  "location": "Chandigarh",
+                  "avatar": "/images/avatar-amit.webp",
+                  "rating": 5
+                },
+                {
+                  "text": "Best ISP we have ever used for our co-working office. Upgrades and static IP allocation were done within 1 hour.",
+                  "author": "Meera Nair",
+                  "role": "Operations Head, Kochi",
+                  "location": "Kochi",
+                  "avatar": "/images/avatar-priya.webp",
+                  "rating": 5
+                },
+                {
+                  "text": "Consistent 300 Mbps bandwidth without throttling. Downloading large 4K raw footage is effortless now.",
+                  "author": "Siddharth Roy",
+                  "role": "Video Editor, Kolkata",
+                  "location": "Kolkata",
+                  "avatar": "/images/avatar-rahul.webp",
+                  "rating": 5
+                }
+              ]
+            },
+            "stats": {
+              "items": [
+                {
+                  "value": "100k+",
+                  "label": "Happy Customers",
+                  "icon": "Users"
+                },
+                {
+                  "value": "99.9%",
+                  "label": "Network Uptime",
+                  "icon": "Activity"
+                },
+                {
+                  "value": "1 Gbps",
+                  "label": "Max Net Speed",
+                  "icon": "Zap"
+                },
+                {
+                  "value": "24/7",
+                  "label": "Expert Technical Care",
+                  "icon": "Headset"
+                }
+              ]
+            },
+            "contact": {
+              "cards": [
+                {
+                  "icon": "Phone",
+                  "title": "Call Us",
+                  "lines": [
+                    "+100000000000",
+                    "+100000000000"
+                  ],
+                  "caption": "Mon - Sat, 9:00 AM - 7:00 PM",
+                  "href": "tel:+100000000000"
+                },
+                {
+                  "icon": "Mail",
+                  "title": "Email Us",
+                  "lines": [
+                    "info@xyz.com"
+                  ],
+                  "caption": "We reply within 24 hours",
+                  "href": "mailto:info@xyz.com"
+                },
+                {
+                  "icon": "MapPin",
+                  "title": "Visit Us",
+                  "lines": [
+                    "123 Education Lane,",
+                    "New York, NY 10001"
+                  ],
+                  "caption": "Our office location",
+                  "href": "https://maps.google.com/?q=123+Education+Lane,+New+York,+NY+10001"
+                },
+                {
+                  "icon": "Clock",
+                  "title": "Working Hours",
+                  "lines": [
+                    "Mon - Sat: 9:00 AM - 7:00 PM",
+                    "Sunday: Closed"
+                  ],
+                  "caption": "Customer Support"
+                }
+              ],
+              "form": {
+                "subtitle": "SEND US A MESSAGE",
+                "title_line1": "Get In",
+                "title_highlight": "Touch",
+                "description": "Fill out the form below and our team will get back to you as soon as possible.",
+                "button_text": "Submit Enquiry",
+                "image": "/images/contact-reception.webp",
+                "consent_text": "I agree to be contacted by Joyvia for my enquiry.",
+                "placeholders": {
+                  "name": "Full Name *",
+                  "phone": "Phone Number *",
+                  "email": "Email Address *",
+                  "city": "City *",
+                  "service_type": "Service Type *",
+                  "message": "Your Message (Optional)"
+                }
+              },
+              "location_section": {
+                "subtitle": "OUR LOCATION",
+                "title_line1": "Find Us",
+                "title_highlight": "Easily",
+                "description": "Visit our office or get in touch with us. We are conveniently located and easily accessible.",
+                "office_address": {
+                  "title": "Our Office Address",
+                  "address": "123 Education Lane,\nNew York, NY 10001",
+                  "button_text": "Get Directions",
+                  "directions_url": "https://maps.google.com/?q=123+Education+Lane,+New+York,+NY+10001"
+                },
+                "highlights": [
+                  {
+                    "icon": "Train",
+                    "title": "Nearest Metro",
+                    "value": "MG Road (500m)"
+                  },
+                  {
+                    "icon": "Car",
+                    "title": "Parking",
+                    "value": "Available"
+                  },
+                  {
+                    "icon": "Building2",
+                    "title": "Landmark",
+                    "value": "Opp. Tech Mall"
+                  }
+                ]
+              },
+              "map": {
+                "embed_url": "https://maps.google.com/maps?q=123%20Education%20Lane,%20New%20York,%20NY%2010001&t=&z=13&ie=UTF8&iwloc=&output=embed",
+                "office_name": "Joyvia",
+                "office_address": "123 Education Lane, New York, NY 10001"
+              }
+            },
+            "gallery": {
+              "subtitle": "OUR NETWORK IN ACTION",
+              "title_line1": "Joyvia",
+              "title_highlight": "Photo Gallery",
+              "description": "Explore snapshots of our cutting-edge fiber infrastructure, smart home installations, and smiling customers.",
+              "items": [
+                {
+                  "image": "/images/hero-family.webp",
+                  "alt": "Family Streaming 4K TV",
+                  "category": "Home"
+                },
+                {
+                  "image": "/images/service-business-internet.webp",
+                  "alt": "Corporate Fiber Connectivity",
+                  "category": "Business"
+                },
+                {
+                  "image": "/images/gallery-gaming-stream.webp",
+                  "alt": "Ultra Low Latency Gaming Setup",
+                  "category": "Gaming"
+                },
+                {
+                  "image": "/images/service-wifi-mesh.webp",
+                  "alt": "Whole Home Mesh Wi-Fi Beacon",
+                  "category": "Wi-Fi"
+                },
+                {
+                  "image": "/images/service-dedicated-fiber.webp",
+                  "alt": "Data Center High-Speed Rack",
+                  "category": "Enterprise"
+                },
+                {
+                  "image": "/images/gallery-smart-home.webp",
+                  "alt": "Connected Smart Home Lifestyle",
+                  "category": "Home"
+                }
+              ]
+            },
+            "service_details": [
+              {
+                "slug": "home-broadband",
+                "title": "Home Broadband",
+                "badge": "HOME BROADBAND",
+                "subtitle": "HOME BROADBAND",
+                "title_line1": "Fast, Reliable Internet",
+                "title_highlight": "for Every Home",
+                "description": "Stay connected with high-speed home broadband designed for smooth streaming, online gaming, video calls and everyday browsing. We bring you a stable and secure internet experience tailored for your family's needs.",
+                "image": "/images/service-detail-router.webp",
+                "key_points": [
+                  {
+                    "icon": "Gauge",
+                    "title": "High-Speed Internet",
+                    "description": "Enjoy seamless browsing, streaming and gaming."
+                  },
+                  {
+                    "icon": "Wifi",
+                    "title": "Strong Wi-Fi Coverage",
+                    "description": "Get consistent signal in every corner of your home."
+                  },
+                  {
+                    "icon": "ShieldCheck",
+                    "title": "Secure & Stable",
+                    "description": "Reliable and safe internet for your family."
+                  },
+                  {
+                    "icon": "Laptop",
+                    "title": "Connect Multiple Devices",
+                    "description": "Stream, work and game on all your devices."
+                  }
+                ],
+                "secondary_section": {
+                  "badge": "PERFECT FOR EVERYONE",
+                  "title_line1": "Designed for",
+                  "title_highlight": "Modern Homes",
+                  "description": "Whether it's online classes, remote work, 4K streaming or gaming, our home broadband keeps your entire family connected without interruptions.",
+                  "image": "/images/service-detail-family.webp",
+                  "checklist": [
+                    "Smooth 4K/8K streaming experience",
+                    "Lag-free online gaming",
+                    "Reliable connection for work from home",
+                    "Ideal for smart home devices"
+                  ]
+                },
+                "steps_section": {
+                  "badge": "HOW IT WORKS",
+                  "title_line1": "Get Connected in",
+                  "title_highlight": "3 Simple Steps",
+                  "steps": [
+                    {
+                      "step": "01",
+                      "icon": "FileText",
+                      "title": "Choose Your Plan",
+                      "description": "Select the plan that fits your needs."
+                    },
+                    {
+                      "step": "02",
+                      "icon": "Calendar",
+                      "title": "Schedule Installation",
+                      "description": "Book a convenient time for our expert team."
+                    },
+                    {
+                      "step": "03",
+                      "icon": "Wifi",
+                      "title": "Get Connected",
+                      "description": "Enjoy high-speed internet at your home."
+                    }
+                  ]
+                }
+              },
+              {
+                "slug": "business-internet",
+                "title": "Business Internet",
+                "badge": "BUSINESS INTERNET",
+                "subtitle": "BUSINESS INTERNET",
+                "title_line1": "Fast, Scalable Bandwidth",
+                "title_highlight": "for Modern Enterprises",
+                "description": "Keep your operations fast, agile, and always online with Joyvia Business Internet. Designed for modern remote teams, digital agencies, retail outlets, and growing enterprises that cannot afford downtime.",
+                "image": "/images/service-business-internet.webp",
+                "key_points": [
+                  {
+                    "icon": "Gauge",
+                    "title": "Symmetrical Speeds",
+                    "description": "Equal upload and download speeds up to 1 Gbps."
+                  },
+                  {
+                    "icon": "ShieldCheck",
+                    "title": "99.9% Uptime SLA",
+                    "description": "Reliable connection backed by strict enterprise SLA."
+                  },
+                  {
+                    "icon": "Headset",
+                    "title": "Priority Support",
+                    "description": "Dedicated account manager and 30-minute response time."
+                  },
+                  {
+                    "icon": "Server",
+                    "title": "Static IP Included",
+                    "description": "Fixed public IPs for hosting, servers, and VPNs."
+                  }
+                ],
+                "secondary_section": {
+                  "badge": "OPTIMIZED PRODUCTIVITY",
+                  "title_line1": "Engineered for",
+                  "title_highlight": "High-Performance Work",
+                  "description": "Power all your video calls, cloud computing, CRM syncing, and multi-user office devices with zero lag and dedicated routing.",
+                  "image": "/images/service-dedicated-fiber.webp",
+                  "checklist": [
+                    "Zero packet loss during critical video conferences",
+                    "Fast multi-gigabyte cloud backups and transfers",
+                    "Multi-WAN failover redundancy available",
+                    "Enterprise hardware with centralized management"
+                  ]
+                },
+                "steps_section": {
+                  "badge": "HOW IT WORKS",
+                  "title_line1": "Get Connected in",
+                  "title_highlight": "3 Simple Steps",
+                  "steps": [
+                    {
+                      "step": "01",
+                      "icon": "FileText",
+                      "title": "Choose Business Plan",
+                      "description": "Pick the speed tier tailored to your team."
+                    },
+                    {
+                      "step": "02",
+                      "icon": "Calendar",
+                      "title": "Site Inspection",
+                      "description": "Our certified engineers inspect your setup."
+                    },
+                    {
+                      "step": "03",
+                      "icon": "Wifi",
+                      "title": "Dedicated Activation",
+                      "description": "Launch business operations with priority speed."
+                    }
+                  ]
+                }
+              },
+              {
+                "slug": "wi-fi-solutions",
+                "title": "Wi-Fi Solutions",
+                "badge": "WI-FI SOLUTIONS",
+                "subtitle": "WI-FI SOLUTIONS",
+                "title_line1": "Whole-Home Mesh Wi-Fi",
+                "title_highlight": "with Zero Dead Zones",
+                "description": "Eliminate Wi-Fi blind spots throughout multi-story residences and spacious offices with our intelligent mesh networking systems. Move freely between rooms without dropped video calls or buffering audio.",
+                "image": "/images/service-wifi-mesh.webp",
+                "key_points": [
+                  {
+                    "icon": "Wifi",
+                    "title": "Intelligent Auto-Roaming",
+                    "description": "Seamless handoff between mesh nodes across floors."
+                  },
+                  {
+                    "icon": "Gauge",
+                    "title": "Gigabit Wi-Fi 6",
+                    "description": "Ultra-fast wireless transmission for all smart devices."
+                  },
+                  {
+                    "icon": "ShieldCheck",
+                    "title": "Parental & Guest Controls",
+                    "description": "Isolated guest network and scheduling controls."
+                  },
+                  {
+                    "icon": "Laptop",
+                    "title": "Connect 60+ Devices",
+                    "description": "Smooth performance across smartphones, TVs, and IoT."
+                  }
+                ],
+                "secondary_section": {
+                  "badge": "SEAMLESS CONNECTIVITY",
+                  "title_line1": "Built for",
+                  "title_highlight": "Spacious Spaces",
+                  "description": "Whether you live in a multi-story house or work in an open office, our smart mesh nodes ensure every corner gets blazing-fast signal strength.",
+                  "image": "/images/service-detail-router.webp",
+                  "checklist": [
+                    "Full signal coverage from basement to terrace",
+                    "Dedicated tri-band wireless backhaul",
+                    "Single unified network name across your house",
+                    "Mobile companion app for simple device monitoring"
+                  ]
+                },
+                "steps_section": {
+                  "badge": "HOW IT WORKS",
+                  "title_line1": "Get Connected in",
+                  "title_highlight": "3 Simple Steps",
+                  "steps": [
+                    {
+                      "step": "01",
+                      "icon": "FileText",
+                      "title": "Select Node Pack",
+                      "description": "Choose 2-pack or 3-pack based on square footage."
+                    },
+                    {
+                      "step": "02",
+                      "icon": "Calendar",
+                      "title": "Optimal Node Setup",
+                      "description": "Technicians place beacons for zero signal dead zones."
+                    },
+                    {
+                      "step": "03",
+                      "icon": "Wifi",
+                      "title": "Seamless Roaming",
+                      "description": "Experience unbreakable Wi-Fi in every room."
+                    }
+                  ]
+                }
+              },
+              {
+                "slug": "dedicated-internet",
+                "title": "Dedicated Internet",
+                "badge": "DEDICATED INTERNET",
+                "subtitle": "DEDICATED INTERNET",
+                "title_line1": "Mission-Critical Leased Line",
+                "title_highlight": "for Enterprises",
+                "description": "Our dedicated leased line delivers guaranteed unshared bandwidth straight from our fiber backbone directly into your data center or enterprise server room with 1:1 symmetrical contention.",
+                "image": "/images/service-dedicated-fiber.webp",
+                "key_points": [
+                  {
+                    "icon": "Gauge",
+                    "title": "1:1 Unshared Bandwidth",
+                    "description": "Never shared with neighbors or public traffic."
+                  },
+                  {
+                    "icon": "ShieldCheck",
+                    "title": "99.95% Network Uptime",
+                    "description": "Carrier-grade reliability for mission-critical apps."
+                  },
+                  {
+                    "icon": "Zap",
+                    "title": "Ultra-Low Latency",
+                    "description": "Direct routing to AWS, Azure, GCP and cloud exchanges."
+                  },
+                  {
+                    "icon": "Headset",
+                    "title": "24/7 Dedicated NOC",
+                    "description": "Round-the-clock proactive monitoring and response."
+                  }
+                ],
+                "secondary_section": {
+                  "badge": "ENTERPRISE EXCELLENCE",
+                  "title_line1": "Engineered for",
+                  "title_highlight": "Maximum Reliability",
+                  "description": "Run heavy database synchronizations, VoIP call centers, financial transactions, and secure VPN connections with total peace of mind.",
+                  "image": "/images/service-business-internet.webp",
+                  "checklist": [
+                    "Guaranteed low jitter and zero packet drops",
+                    "Redundant dual-fiber ring delivery available",
+                    "Custom IP block allocation (/29 to /24)",
+                    "Dedicated Service Level Agreement with penalty credits"
+                  ]
+                },
+                "steps_section": {
+                  "badge": "HOW IT WORKS",
+                  "title_line1": "Get Connected in",
+                  "title_highlight": "3 Simple Steps",
+                  "steps": [
+                    {
+                      "step": "01",
+                      "icon": "FileText",
+                      "title": "Bandwidth Assessment",
+                      "description": "Specify required capacity from 100 Mbps to 10 Gbps."
+                    },
+                    {
+                      "step": "02",
+                      "icon": "Calendar",
+                      "title": "Fiber Feasibility",
+                      "description": "Our telecom team maps dedicated fiber entry points."
+                    },
+                    {
+                      "step": "03",
+                      "icon": "Wifi",
+                      "title": "Leased Line Live",
+                      "description": "Activate SLA-guaranteed private connectivity."
+                    }
+                  ]
+                }
+              },
+              {
+                "slug": "installation-setup",
+                "title": "Installation & Setup",
+                "badge": "INSTALLATION & SETUP",
+                "subtitle": "INSTALLATION & SETUP",
+                "title_line1": "Fast, Clean & Certified",
+                "title_highlight": "Broadband Installation",
+                "description": "Our certified field technicians ensure hassle-free, aesthetic optical fiber installation with minimal intrusion and rapid same-day or next-day activation.",
+                "image": "/images/service-installation-setup.webp",
+                "key_points": [
+                  {
+                    "icon": "Wrench",
+                    "title": "Expert Cabling",
+                    "description": "Discreet, conceal routing with high-grade optical conduits."
+                  },
+                  {
+                    "icon": "Gauge",
+                    "title": "Signal Calibration",
+                    "description": "Precise optical power meter testing for peak speed."
+                  },
+                  {
+                    "icon": "ShieldCheck",
+                    "title": "Verified Security",
+                    "description": "WPA3 Wi-Fi encryption and secure router credentials set."
+                  },
+                  {
+                    "icon": "Laptop",
+                    "title": "Device On-Boarding",
+                    "description": "Technician pairs all household phones, laptops & TVs."
+                  }
+                ],
+                "secondary_section": {
+                  "badge": "WORRY-FREE SETUP",
+                  "title_line1": "Designed for",
+                  "title_highlight": "Effortless Experience",
+                  "description": "We take care of every detail from outside optical junction boxes to inner wall outlets and router placement for optimal whole-home signal.",
+                  "image": "/images/service-detail-router.webp",
+                  "checklist": [
+                    "Free doorstep site inspection and path planning",
+                    "Clean drilling and premium aesthetic conduit casing",
+                    "Live speed test verification before technician leaves",
+                    "Instant on-boarding assistance and Wi-Fi tutorial"
+                  ]
+                },
+                "steps_section": {
+                  "badge": "HOW IT WORKS",
+                  "title_line1": "Get Connected in",
+                  "title_highlight": "3 Simple Steps",
+                  "steps": [
+                    {
+                      "step": "01",
+                      "icon": "FileText",
+                      "title": "Book Your Slot",
+                      "description": "Pick your preferred date and convenient time window."
+                    },
+                    {
+                      "step": "02",
+                      "icon": "Calendar",
+                      "title": "Technician Arrival",
+                      "description": "Certified technician arrives on time with full kit."
+                    },
+                    {
+                      "step": "03",
+                      "icon": "Wifi",
+                      "title": "Live & Tested",
+                      "description": "Connection verified with speed test and handed over."
+                    }
+                  ]
+                }
+              },
+              {
+                "slug": "customer-support",
+                "title": "Customer Support",
+                "badge": "CUSTOMER SUPPORT",
+                "subtitle": "CUSTOMER SUPPORT",
+                "title_line1": "24/7 Round-the-Clock",
+                "title_highlight": "Technical Care",
+                "description": "Our in-house technical support team is always just a phone call or chat away. From billing queries to advanced router configuration, we are dedicated to keeping your connection smooth.",
+                "image": "/images/service-customer-support.webp",
+                "key_points": [
+                  {
+                    "icon": "Headset",
+                    "title": "24/7 Phone Helpline",
+                    "description": "Direct access to human engineers without automated loops."
+                  },
+                  {
+                    "icon": "Zap",
+                    "title": "Instant WhatsApp Help",
+                    "description": "Quick troubleshooting and ticket updates in WhatsApp."
+                  },
+                  {
+                    "icon": "ShieldCheck",
+                    "title": "Remote Diagnostics",
+                    "description": "Instant optical power and line check from our NOC."
+                  },
+                  {
+                    "icon": "Wrench",
+                    "title": "Same-Day Field Visit",
+                    "description": "On-site technician visit if hardware replacement needed."
+                  }
+                ],
+                "secondary_section": {
+                  "badge": "ALWAYS BY YOUR SIDE",
+                  "title_line1": "Dedicated to",
+                  "title_highlight": "Flawless Service",
+                  "description": "Whether you have questions about plan upgrades, Wi-Fi password resets, or port forwarding, our friendly specialists solve issues in record time.",
+                  "image": "/images/service-detail-family.webp",
+                  "checklist": [
+                    "Average call answer time under 45 seconds",
+                    "Proactive SMS notifications on scheduled network updates",
+                    "Free optical router health inspection every 6 months",
+                    "Dedicated VIP hotline for enterprise broadband clients"
+                  ]
+                },
+                "steps_section": {
+                  "badge": "HOW IT WORKS",
+                  "title_line1": "Get Connected in",
+                  "title_highlight": "3 Simple Steps",
+                  "steps": [
+                    {
+                      "step": "01",
+                      "icon": "FileText",
+                      "title": "Reach Out to Us",
+                      "description": "Call +100000000000 or text us on WhatsApp."
+                    },
+                    {
+                      "step": "02",
+                      "icon": "Calendar",
+                      "title": "Instant Diagnosis",
+                      "description": "Engineers run automated optical line diagnostics."
+                    },
+                    {
+                      "step": "03",
+                      "icon": "Wifi",
+                      "title": "Prompt Resolution",
+                      "description": "Issue resolved remotely or via priority field visit."
+                    }
+                  ]
+                }
+              }
+            ],
+            "enquire_now": {
+              "left_section": {
+                "tag": "ENQUIRY NOW",
+                "title_line1": "Let’s Find the",
+                "title_highlight": "Right Plan",
+                "title_suffix": "for You",
+                "description": "Share your details and our experts will help you choose the best internet plan as per your needs.",
+                "features": [
+                  {
+                    "icon": "Zap",
+                    "title": "Fast Response",
+                    "description": "Our team will get back to you quickly."
+                  },
+                  {
+                    "icon": "Settings",
+                    "title": "Customized Plans",
+                    "description": "Get the best plan as per your requirement."
+                  },
+                  {
+                    "icon": "MessageSquare",
+                    "title": "Expert Guidance",
+                    "description": "Our specialists will help you at every step."
+                  },
+                  {
+                    "icon": "Headset",
+                    "title": "Hassle-Free Support",
+                    "description": "From enquiry to installation, we’re with you."
+                  }
+                ],
+                "image": "/images/service-detail-router.webp"
+              },
+              "form": {
+                "tag": "SEND US A MESSAGE",
+                "title_line1": "Enquire",
+                "title_highlight": "Now",
+                "description": "Fill out the form below and our team will connect with you soon with the best internet solutions.",
+                "button_text": "Submit Enquiry",
+                "consent_text": "I agree to be contacted by Joyvia for my enquiry."
+              },
+              "bottom_section": {
+                "tag": "WHY ENQUIRE WITH JOYVIA",
+                "title_line1": "A Faster, Smarter and More",
+                "title_highlight": "Reliable Internet Experience",
+                "features": [
+                  {
+                    "icon": "Gauge",
+                    "title": "Best Plans",
+                    "description": "Plans tailored to your needs"
+                  },
+                  {
+                    "icon": "User",
+                    "title": "Expert Team",
+                    "description": "Get professional guidance"
+                  },
+                  {
+                    "icon": "Settings",
+                    "title": "Quick Installation",
+                    "description": "Hassle-free setup process"
+                  },
+                  {
+                    "icon": "Headset",
+                    "title": "Ongoing Support",
+                    "description": "We’re always here to help"
+                  }
+                ]
+              }
+            },
+            "book_a_plan": {
+              "left_section": {
+                "tag": "ENQUIRY NOW",
+                "title_line1": "Let’s Find the",
+                "title_highlight": "Right Plan",
+                "title_suffix": "for You",
+                "description": "Share your details and our experts will help you choose the best internet plan as per your needs.",
+                "features": [
+                  {
+                    "icon": "Zap",
+                    "title": "Fast Response",
+                    "description": "Our team will get back to you quickly."
+                  },
+                  {
+                    "icon": "Settings",
+                    "title": "Customized Plans",
+                    "description": "Get the best plan as per your requirement."
+                  },
+                  {
+                    "icon": "MessageSquare",
+                    "title": "Expert Guidance",
+                    "description": "Our specialists will help you at every step."
+                  },
+                  {
+                    "icon": "Headset",
+                    "title": "Hassle-Free Support",
+                    "description": "From enquiry to installation, we’re with you."
+                  }
+                ],
+                "image": "/images/service-detail-router.webp"
+              },
+              "form": {
+                "tag": "SEND US A MESSAGE",
+                "title_line1": "Enquire",
+                "title_highlight": "Now",
+                "description": "Fill out the form below and our team will connect with you soon with the best internet solutions.",
+                "button_text": "Submit Enquiry",
+                "consent_text": "I agree to be contacted by Joyvia for my enquiry."
+              },
+              "bottom_section": {
+                "tag": "WHY ENQUIRE WITH JOYVIA",
+                "title_line1": "A Faster, Smarter and More",
+                "title_highlight": "Reliable Internet Experience",
+                "features": [
+                  {
+                    "icon": "Gauge",
+                    "title": "Best Plans",
+                    "description": "Plans tailored to your needs"
+                  },
+                  {
+                    "icon": "User",
+                    "title": "Expert Team",
+                    "description": "Get professional guidance"
+                  },
+                  {
+                    "icon": "Settings",
+                    "title": "Quick Installation",
+                    "description": "Hassle-free setup process"
+                  },
+                  {
+                    "icon": "Headset",
+                    "title": "Ongoing Support",
+                    "description": "We’re always here to help"
+                  }
+                ]
+              }
+            },
+            "blogs": {
+              "posts": [
+                {
+                  "id": 1,
+                  "slug": "10-tips-to-improve-your-home-internet-speed",
+                  "day": "12",
+                  "month_year": "OCT 2026",
+                  "date_formatted": "12 Oct 2026",
+                  "category": "INTERNET TIPS",
+                  "title": "10 Tips to Improve Your Home Internet Speed",
+                  "title_line1": "10 Tips to Improve Your Home",
+                  "title_highlight": "Internet Speed",
+                  "excerpt": "Discover simple and effective ways to boost your home internet speed for smoother streaming, gaming and browsing.",
+                  "content": [
+                    "A slow internet connection can be frustrating, especially when you're streaming, working from home or gaming online. The good news is that there are several simple and effective ways to improve your home internet speed. In this guide, we'll share the top 10 tips to help from home or gaming online. The good news is that there are several simple and effective ways to improve your home internet speed. In this guide, we'll share the top 10 tips to help from home or gaming online. The good news is that there are several simple and effective ways to improve your home internet speed. In this guide, we'll share the top 10 tips to help you get the best performance from your connection."
+                  ],
+                  "tip": {
+                    "number": "01",
+                    "title": "Place Your Router in the Right Location",
+                    "description": "Keep your router in a central location, away from walls and obstructions. This helps the Wi-Fi signal reach every corner of your home for better coverage and faster speeds.",
+                    "image": "/images/service-detail-router.webp"
+                  },
+                  "image": "/images/blog-1.webp",
+                  "read_more_text": "Read More",
+                  "read_more_link": "/blogs/10-tips-to-improve-your-home-internet-speed"
+                },
+                {
+                  "id": 2,
+                  "slug": "how-to-choose-the-right-internet-plan-for-your-needs",
+                  "day": "08",
+                  "month_year": "OCT 2026",
+                  "date_formatted": "08 Oct 2026",
+                  "category": "GUIDES",
+                  "title": "How to Choose the Right Internet Plan for Your Needs",
+                  "title_line1": "How to Choose the Right",
+                  "title_highlight": "Internet Plan for Your Needs",
+                  "excerpt": "Learn what to consider before selecting an internet plan for your home or business to get the best value and performance.",
+                  "content": [
+                    "Choosing the ideal broadband plan depends on how many devices connect simultaneously and the nature of your online activities. From streaming high-definition media to gaming and running remote work meetings, finding the right bandwidth ensures you never overpay while enjoying smooth uninterrupted performance across every room."
+                  ],
+                  "tip": {
+                    "number": "01",
+                    "title": "Assess Your Household Device Usage",
+                    "description": "Calculate how many phones, laptops, and smart TVs stream simultaneously to choose the ideal speed tier.",
+                    "image": "/images/blog-2.webp"
+                  },
+                  "image": "/images/blog-2.webp",
+                  "read_more_text": "Read More",
+                  "read_more_link": "/blogs/how-to-choose-the-right-internet-plan-for-your-needs"
+                },
+                {
+                  "id": 3,
+                  "slug": "best-internet-speeds-for-4k-streaming-in-2026",
+                  "day": "28",
+                  "month_year": "SEP 2026",
+                  "date_formatted": "28 Sep 2026",
+                  "category": "STREAMING",
+                  "title": "Best Internet Speeds for 4K Streaming in 2026",
+                  "title_line1": "Best Internet Speeds for",
+                  "title_highlight": "4K Streaming in 2026",
+                  "excerpt": "Find out the ideal internet speed requirements for buffer-free 4K streaming on popular platforms like Netflix, YouTube and more.",
+                  "content": [
+                    "Ultra HD 4K streaming requires stable downstream bandwidth and low latency. With HDR and high frame rates becoming the standard, having at least 100 Mbps ensures multiple family members can stream their favorite shows concurrently without quality drops or spinning buffer wheels."
+                  ],
+                  "tip": {
+                    "number": "01",
+                    "title": "Use High-Speed Dual Band 5GHz Wi-Fi",
+                    "description": "Switch your 4K smart TV or streaming box to the 5GHz frequency to eliminate lag and network interference.",
+                    "image": "/images/blog-3.webp"
+                  },
+                  "image": "/images/blog-3.webp",
+                  "read_more_text": "Read More",
+                  "read_more_link": "/blogs/best-internet-speeds-for-4k-streaming-in-2026"
+                },
+                {
+                  "id": 4,
+                  "slug": "wi-fi-dead-zones-heres-how-to-fix-them",
+                  "day": "20",
+                  "month_year": "SEP 2026",
+                  "date_formatted": "20 Sep 2026",
+                  "category": "WI-FI SOLUTIONS",
+                  "title": "Wi-Fi Dead Zones? Here's How to Fix Them",
+                  "title_line1": "Wi-Fi Dead Zones?",
+                  "title_highlight": "Here's How to Fix Them",
+                  "excerpt": "Tired of weak signals in certain areas? Explore practical solutions to eliminate Wi-Fi dead zones in your home.",
+                  "content": [
+                    "Thick concrete walls, metal appliances, and distant rooms often degrade Wi-Fi signals resulting in annoying dead zones. Upgrading to a mesh Wi-Fi system or deploying strategic mesh nodes completely blankets your living space with unified high-speed coverage."
+                  ],
+                  "tip": {
+                    "number": "01",
+                    "title": "Deploy Mesh Wi-Fi Extenders",
+                    "description": "Mesh nodes seamlessly blanket multi-story homes with uniform signal coverage eliminating dead zones completely.",
+                    "image": "/images/blog-4.webp"
+                  },
+                  "image": "/images/blog-4.webp",
+                  "read_more_text": "Read More",
+                  "read_more_link": "/blogs/wi-fi-dead-zones-heres-how-to-fix-them"
+                },
+                {
+                  "id": 5,
+                  "slug": "how-a-strong-internet-connection-keeps-your-family-connected",
+                  "day": "15",
+                  "month_year": "SEP 2026",
+                  "date_formatted": "15 Sep 2026",
+                  "category": "FAMILY CONNECTIVITY",
+                  "title": "How a Strong Internet Connection Keeps Your Family Connected",
+                  "title_line1": "How Strong Internet Keeps Your",
+                  "title_highlight": "Family Connected",
+                  "excerpt": "From online classes to video calls, see how reliable internet helps your family stay connected and productive.",
+                  "content": [
+                    "From interactive online learning to grandparents joining weekend video calls, modern families depend on fast reliable connectivity. With symmetrical upload and download speeds, every member of the household stays seamlessly connected without compromise."
+                  ],
+                  "tip": {
+                    "number": "01",
+                    "title": "Equal Bandwidth Distribution",
+                    "description": "Advanced QoS technology ensures online schooling, work Zoom calls, and 4K entertainment stream without conflict.",
+                    "image": "/images/blog-5.webp"
+                  },
+                  "image": "/images/blog-5.webp",
+                  "read_more_text": "Read More",
+                  "read_more_link": "/blogs/how-a-strong-internet-connection-keeps-your-family-connected"
+                },
+                {
+                  "id": 6,
+                  "slug": "simple-tips-to-keep-your-home-network-safe",
+                  "day": "05",
+                  "month_year": "SEP 2026",
+                  "date_formatted": "05 Sep 2026",
+                  "category": "SECURITY",
+                  "title": "Simple Tips to Keep Your Home Network Safe",
+                  "title_line1": "Simple Tips to Keep Your",
+                  "title_highlight": "Home Network Safe",
+                  "excerpt": "Learn essential security tips to protect your home network from online threats and keep your data safe.",
+                  "content": [
+                    "Home networks connect everything from banking apps on our phones to smart cameras and smart locks. Securing your router with updated firmware, WPA3 encryption, and robust passphrases protects your sensitive personal data from cyber threats."
+                  ],
+                  "tip": {
+                    "number": "01",
+                    "title": "Enable WPA3 Encryption & Strong Passwords",
+                    "description": "Secure your router admin portal and switch your Wi-Fi encryption to WPA3 to block unauthorized intrusion.",
+                    "image": "/images/blog-6.webp"
+                  },
+                  "image": "/images/blog-6.webp",
+                  "read_more_text": "Read More",
+                  "read_more_link": "/blogs/simple-tips-to-keep-your-home-network-safe"
+                }
+              ]
+            },
+            "blog_details": {
+              "sidebar_title": "Recent Posts"
+            }
+          }
+        }
+      }
+    }
+  }
+}
