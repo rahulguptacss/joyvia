@@ -433,7 +433,7 @@
               "description": "Stay connected with Joyvia’s ultra-fast and reliable broadband services, designed for your home and business.",
               "primary_button": {
                 "text": "Get Connected",
-                "href": "/book-a-plan"
+                "href": "/enquire-now"
               },
               "secondary_button": {
                 "text": "View Plans",
@@ -583,7 +583,7 @@
                   "icon": "Home",
                   "is_popular": false,
                   "button_text": "Enquire Now",
-                  "button_link": "/book-a-plan?plan=basic",
+                  "button_link": "/enquire-now",
                   "button_variant": "solid",
                   "features": [
                     "Ideal for browsing & social media",
@@ -601,7 +601,7 @@
                   "icon": "Film",
                   "is_popular": false,
                   "button_text": "Enquire Now",
-                  "button_link": "/book-a-plan?plan=standard",
+                  "button_link": "/enquire-now",
                   "button_variant": "outline",
                   "features": [
                     "Smooth HD & 4K streaming",
@@ -620,7 +620,7 @@
                   "is_popular": true,
                   "popular_badge": "MOST POPULAR",
                   "button_text": "Enquire Now",
-                  "button_link": "/book-a-plan?plan=premium",
+                  "button_link": "/enquire-now",
                   "button_variant": "solid",
                   "features": [
                     "Lag-free 4K streaming",
@@ -638,7 +638,7 @@
                   "icon": "Briefcase",
                   "is_popular": false,
                   "button_text": "Enquire Now",
-                  "button_link": "/book-a-plan?plan=business",
+                  "button_link": "/enquire-now",
                   "button_variant": "outline",
                   "features": [
                     "High-speed dedicated bandwidth",
@@ -687,7 +687,7 @@
               "title_highlight": "Internet Experience?",
               "description": "Join thousands of happy users and get connected today with high-speed, reliable and secure internet services.",
               "button": {
-                "text": "Enquire Now",
+                "text": "Plans",
                 "href": "/broadband-plans"
               },
               "image": "/images/cta.webp"

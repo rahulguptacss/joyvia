@@ -58,7 +58,7 @@ export default function CtaBanner({ data }: CtaBannerProps) {
                 href={data.button?.href || '/broadband-plans'}
                 className="inline-flex items-center gap-2 bg-[#fa5522] hover:bg-[#e04515] text-white px-6 sm:px-7 py-2.5 sm:py-3 rounded-xl sm:rounded-2xl font-bold text-xs sm:text-sm transition-all duration-300 shadow-[0_4px_16px_rgba(250,85,34,0.3)] hover:shadow-[0_6px_22px_rgba(250,85,34,0.45)] active:scale-95 group/btn"
               >
-                <span>{data.button?.text || 'Enquire Now'}</span>
+                <span>{data.button?.text || 'Plans'}</span>
                 <ArrowRight className="w-4 h-4 transition-transform duration-200 group-hover/btn:translate-x-1" />
               </Link>
             </motion.div>

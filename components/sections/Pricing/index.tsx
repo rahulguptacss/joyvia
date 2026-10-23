@@ -222,7 +222,7 @@ export default function Pricing({ data }: PricingProps) {
                 <div className="pt-1">
                   {isOutlineBtn ? (
                     <Link
-                      href={plan.button_link || '/book-a-plan'}
+                      href={plan.button_link || '/enquire-now'}
                       className="w-full py-2.5 rounded-xl font-bold text-xs sm:text-sm border-2 border-[#fa5522] text-[#fa5522] hover:bg-[#fa5522] hover:text-white flex items-center justify-center gap-1.5 transition-all duration-300 active:scale-95 group"
                     >
                       <span>{plan.button_text || 'Enquire Now'}</span>
@@ -230,7 +230,7 @@ export default function Pricing({ data }: PricingProps) {
                     </Link>
                   ) : (
                     <Link
-                      href={plan.button_link || '/book-a-plan'}
+                      href={plan.button_link || '/enquire-now'}
                       className="w-full py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-[#fa5522] hover:bg-[#d84416] text-white shadow-sm hover:shadow-md hover:shadow-orange-500/25 flex items-center justify-center gap-1.5 transition-all duration-300 active:scale-95 group"
                     >
                       <span>{plan.button_text || 'Enquire Now'}</span>
