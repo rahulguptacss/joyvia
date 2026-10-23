@@ -72,7 +72,7 @@ export default function Hero({ data }: HeroProps) {
           >
             {/* Primary Button */}
             <Link
-              href={data.primary_button?.href || '/enquire-now'}
+              href={data.primary_button?.href && data.primary_button.href !== '#' ? data.primary_button.href : '/enquire-now'}
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-[#f05423] hover:bg-[#d84416] text-white px-7 sm:px-8 py-3.5 rounded-xl font-bold text-sm sm:text-base transition-all duration-300 shadow-md shadow-orange-500/25 hover:shadow-lg hover:shadow-orange-500/40 hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"
             >
               <span>{data.primary_button?.text || 'Get Connected'}</span>

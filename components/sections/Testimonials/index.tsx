@@ -262,54 +262,6 @@ export default function Testimonials({ data, isGrid = false }: TestimonialsProps
                 'Trusted by thousands of happy customers for fast, reliable and uninterrupted internet services.'}
             </p>
           </div>
-
-          {/* Right Floating Rating Card */}
-          {data.rating_summary && (
-            <div className="relative self-start sm:self-center shrink-0">
-              <div className="absolute -top-3.5 -left-3 pointer-events-none select-none">
-                <svg className="w-5 h-5 text-[#fa5522]" viewBox="0 0 24 24" fill="none">
-                  <path
-                    d="M3 13L9 9M7 3L11 8"
-                    stroke="currentColor"
-                    strokeWidth="2.5"
-                    strokeLinecap="round"
-                  />
-                </svg>
-              </div>
-
-              <div className="bg-white rounded-2xl px-4 py-2.5 sm:px-5 sm:py-3 shadow-[0_8px_25px_rgba(0,0,0,0.06)] border border-gray-100 flex items-center gap-3.5 sm:gap-4">
-                <div className="flex -space-x-2 overflow-visible items-center">
-                  <div className="relative w-7 h-7 sm:w-8 sm:h-8 rounded-full overflow-hidden border-2 border-white shadow-xs">
-                    <Image src="/images/avatar-rahul.webp" alt="User" fill className="object-cover" />
-                  </div>
-                  <div className="relative w-7 h-7 sm:w-8 sm:h-8 rounded-full overflow-hidden border-2 border-white shadow-xs">
-                    <Image src="/images/avatar-priya.webp" alt="User" fill className="object-cover" />
-                  </div>
-                  <div className="relative w-7 h-7 sm:w-8 sm:h-8 rounded-full overflow-hidden border-2 border-white shadow-xs">
-                    <Image src="/images/avatar-amit.webp" alt="User" fill className="object-cover" />
-                  </div>
-                  <div className="relative w-7 h-7 sm:w-8 sm:h-8 rounded-full overflow-hidden border-2 border-white shadow-xs">
-                    <Image src="/images/avatar-priya.webp" alt="User" fill className="object-cover" />
-                  </div>
-                  <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-[#fa5522]/15 text-[#fa5522] border-2 border-white flex items-center justify-center text-xs font-extrabold shadow-xs">
-                    +
-                  </div>
-                </div>
-
-                <div className="w-[1px] h-7 bg-gray-200" />
-
-                <div className="flex flex-col">
-                  <span className="text-lg sm:text-xl font-black text-[#fa5522] leading-none tracking-tight">
-                    {data.rating_summary.score || '4.8/5'}
-                  </span>
-                  <span className="text-[10px] sm:text-[11px] text-gray-500 font-medium mt-0.5">
-                    {data.rating_summary.label || 'from 2,500+ reviews'}
-                  </span>
-                </div>
-              </div>
-            </div>
-          )}
-
         </div>
 
         {/* 1-by-1 Continuous Sliding Track */}

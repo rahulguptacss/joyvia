@@ -121,7 +121,7 @@ export default function WhyChoose({ data }: WhyChooseProps) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.15 }}
-              className="text-slate-500 text-xs sm:text-sm max-w-xl leading-relaxed mb-5 sm:mb-6"
+              className="text-slate-700 text-xs sm:text-sm max-w-xl leading-relaxed mb-5 sm:mb-6"
             >
               {data.description}
             </motion.p>
@@ -155,12 +155,12 @@ export default function WhyChoose({ data }: WhyChooseProps) {
                     )}
                   </div>
 
-                  {/* Card Title & Description */}
+                  {/* Card Title & Description - Black Text */}
                   <div className="flex-1 min-w-0">
-                    <h3 className="text-sm sm:text-[15px] font-bold text-[#fa5522] tracking-tight mb-0.5 sm:mb-1 group-hover:text-[#e04515] transition-colors duration-200">
+                    <h3 className="text-sm sm:text-[15px] font-bold text-[#0a1128] tracking-tight mb-0.5 sm:mb-1 group-hover:text-[#fa5522] transition-colors duration-200">
                       {item.title}
                     </h3>
-                    <p className="text-slate-500 text-[11px] sm:text-xs leading-normal sm:leading-relaxed line-clamp-3">
+                    <p className="text-slate-600 text-[11px] sm:text-xs leading-normal sm:leading-relaxed line-clamp-3">
                       {item.description}
                     </p>
                   </div>

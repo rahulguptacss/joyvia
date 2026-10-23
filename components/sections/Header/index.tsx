@@ -343,13 +343,13 @@ export default function Header({ data }: HeaderProps) {
 
   return (
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-[0_2px_15px_rgba(0,0,0,0.03)]">
-      <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
-        <div className="flex items-center justify-between h-20 sm:h-[84px]">
+      <div className="max-w-7xl mx-auto px-3.5 sm:px-8 lg:px-12">
+        <div className="flex items-center justify-between h-16 sm:h-[84px]">
           {/* Left: Logo + Desktop Navigation shifted towards the left */}
           <div className="flex items-center gap-5 xl:gap-8">
             {/* Logo with /logo/logo.webp */}
             <Link href="/" className="flex items-center shrink-0">
-              <div className="relative h-[51px] sm:h-[58px] lg:h-[62px] w-[161px] sm:w-48 lg:w-52 xl:w-56">
+              <div className="relative h-[40px] xs:h-[46px] sm:h-[58px] lg:h-[62px] w-[125px] xs:w-[150px] sm:w-48 lg:w-52 xl:w-56">
                 <Image
                   src={data.logo_image || '/logo/logo.webp'}
                   alt={data.logo_text || 'Joyvia'}
@@ -377,7 +377,7 @@ export default function Header({ data }: HeaderProps) {
           {/* Right Action: Enquire Now Button */}
           <div className="hidden md:flex items-center">
             <Link
-              href={data.button_link || '/enquire-now'}
+              href={data.button_link && data.button_link !== '#' ? data.button_link : '/enquire-now'}
               className="inline-flex items-center gap-2.5 bg-[#f05423] hover:bg-[#d84416] text-white px-6 sm:px-7 py-3 rounded-full font-bold text-sm sm:text-[15px] transition-all duration-300 shadow-md hover:shadow-lg hover:shadow-orange-500/25 active:scale-95 cursor-pointer"
             >
               <span>{data.button_text || 'Enquire Now'}</span>
@@ -385,11 +385,11 @@ export default function Header({ data }: HeaderProps) {
             </Link>
           </div>
 
-          {/* Mobile Menu Button */}
-          <div className="flex items-center gap-2.5 sm:gap-3.5 lg:hidden">
+          {/* Mobile Menu Button + CTA */}
+          <div className="flex items-center gap-2 sm:gap-3.5 lg:hidden shrink-0">
             <Link
-              href={data.button_link || '/enquire-now'}
-              className="md:hidden inline-flex items-center gap-2 bg-[#f05423] hover:bg-[#d84416] text-white px-4.5 sm:px-5 py-2.5 rounded-full font-bold text-xs sm:text-sm shadow-md active:scale-95 transition-all"
+              href={data.button_link && data.button_link !== '#' ? data.button_link : '/enquire-now'}
+              className="md:hidden inline-flex items-center gap-1.5 bg-[#f05423] hover:bg-[#d84416] text-white px-3 sm:px-5 py-1.5 sm:py-2.5 rounded-full font-bold text-xs sm:text-sm shadow-sm active:scale-95 transition-all shrink-0"
             >
               <span>{data.button_text || 'Enquire Now'}</span>
               <ArrowRight className="w-3.5 h-3.5" />
@@ -398,7 +398,7 @@ export default function Header({ data }: HeaderProps) {
             <button
               type="button"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2 sm:p-2.5 rounded-xl text-gray-700 hover:text-[#f05423] hover:bg-orange-50 transition-colors cursor-pointer"
+              className="p-1.5 sm:p-2.5 rounded-xl text-gray-700 hover:text-[#f05423] hover:bg-orange-50 transition-colors cursor-pointer shrink-0"
               aria-label="Toggle Navigation"
             >
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
