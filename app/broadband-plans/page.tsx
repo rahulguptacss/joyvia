@@ -3,7 +3,6 @@ import Topbar from '../../components/sections/Topbar';
 import Header from '../../components/sections/Header';
 import Breadcrumb from '../../components/sections/Breadcrumb';
 import Pricing from '../../components/sections/Pricing';
-import CtaBanner from '../../components/sections/CtaBanner';
 import Footer from '../../components/sections/Footer';
 import BackToTop from '../../components/ui/BackToTop';
 import { common, pages, sections } from '../../components/types';
@@ -29,7 +28,6 @@ export default function BroadbandPlansPage() {
           backgroundImage="/images/breadcrumb-bg.webp"
         />
         <Pricing data={sections.pricing} />
-        <CtaBanner data={sections.cta_banner} />
       </main>
       <Footer data={common.Footer} />
       <BackToTop />
